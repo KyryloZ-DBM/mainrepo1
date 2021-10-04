@@ -59,6 +59,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "221aca7e-7156-4a62-b8bd-ff629e282c5d",
+        "ProjectName": "sandboxProject1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\sandboxProject1"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
