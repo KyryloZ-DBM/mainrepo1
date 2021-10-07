@@ -385,31 +385,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "f1b7740e-394a-4720-a79f-40dcee09e2aa",
-        "ProjectName": "Project2",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\Project2"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
