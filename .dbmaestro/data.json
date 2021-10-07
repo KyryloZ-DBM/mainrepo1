@@ -19,7 +19,7 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "Password": "1q2w3e4R",
                   "DatabaseName": "sp1"
                 },
                 "RepositoryDetails": {
@@ -323,6 +323,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "8e855017-d55f-4ecb-a523-5608158185d3",
+        "ProjectName": "Project2",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\Project2"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
         }
       ]
     }
