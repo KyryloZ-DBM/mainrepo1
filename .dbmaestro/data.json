@@ -361,18 +361,7 @@
             "EnvironmentId": "66893ed9-696a-4766-ba76-a5c677bf46aa",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "26127f96-444a-4458-9fbb-b6b74df3ca30",
-                "DatabaseAliasName": "newAliasName",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectName123.git",
-                  "BranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -390,24 +379,7 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": [
-            {
-              "DatabaseId": "26127f96-444a-4458-9fbb-b6b74df3ca30",
-              "DatabaseAliasName": "newAliasName",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "alias1"
-              },
-              "RepositoryCredentials": {
-                "UserName": "KyryloZ-DBM",
-                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
