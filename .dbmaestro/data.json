@@ -14,7 +14,14 @@
               {
                 "DatabaseId": "42093c22-10bc-4d67-b834-b60d133f411d",
                 "DatabaseAliasName": "alias1",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "alias1"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
@@ -48,7 +55,7 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "alias1"
               },
               "RepositoryCredentials": {
@@ -57,6 +64,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "320353e6-71f5-4491-8849-0ebfcc4955a9",
+        "ProjectName": "secondRepo1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\admin\\Documents\\secondRepo1"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
         }
       ]
     }
