@@ -186,31 +186,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "5a37d610-2cea-495a-9945-c43081ac0040",
-        "ProjectName": "projectNamet",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectNamet"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
