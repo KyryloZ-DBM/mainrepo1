@@ -345,11 +345,28 @@
               {
                 "DatabaseId": "f3b56809-afb2-4436-840e-1cfca3dfa7aa",
                 "DatabaseAliasName": "pa2db1_pa2db2",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "pa2db1"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/testMapProject.git",
                   "BranchName": "b1"
+                }
+              },
+              {
+                "DatabaseId": "e5ba62a5-a0f9-4f61-8f76-2b49e999d5f7",
+                "DatabaseAliasName": "pa3db_pa3db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/testMapProject.git",
+                  "BranchName": "b2"
                 }
               }
             ]
@@ -395,8 +412,24 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "pa2db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            },
+            {
+              "DatabaseId": "e5ba62a5-a0f9-4f61-8f76-2b49e999d5f7",
+              "DatabaseAliasName": "pa3db_pa3db1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "pa3db"
               },
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
