@@ -373,66 +373,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "67110996-3bc9-4555-ac80-82d3b08979c3",
-        "ProjectName": "more1kObjects",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "75c20ddc-99e5-40d3-accb-af6756c9d69e",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "955f0e8d-6dba-4e41-93f1-afc9aa915b9b",
-                "DatabaseAliasName": "more1kObjects",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/more1kObjects.git",
-                  "BranchName": "main"
-                }
-              }
-            ]
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\more1kObjects"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": [
-            {
-              "DatabaseId": "955f0e8d-6dba-4e41-93f1-afc9aa915b9b",
-              "DatabaseAliasName": "more1kObjects",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "more1kObjects"
-              },
-              "RepositoryCredentials": {
-                "UserName": "KyryloZ-DBM",
-                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
