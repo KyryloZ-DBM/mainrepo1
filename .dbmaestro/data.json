@@ -25,7 +25,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sharedProj1.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -85,7 +85,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/SC_testRepo.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -145,7 +145,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectWith100Tables.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -205,7 +205,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sandboxProject1.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -265,7 +265,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/more5kRecords.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -325,7 +325,7 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/more1kObjects.git",
-                  "BranchName": "main"
+                  "RemoteBranchName": null
                 }
               }
             ]
@@ -371,31 +371,6 @@
       "GlobalData": {
         "ProjectId": "71956fb4-d418-4495-9e14-10ca7a03953d",
         "ProjectName": "1",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "233c9fdd-8c2a-45ae-b9d2-6db0e95f15e8",
-        "ProjectName": "projectName",
         "DBTypeName": "SQL Server",
         "Environments": null,
         "SourceControlPathType": 0,
