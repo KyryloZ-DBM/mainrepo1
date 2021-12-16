@@ -502,10 +502,27 @@
               {
                 "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
                 "DatabaseAliasName": "manyDbAlias",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "manyDbAlias"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAlias.git",
+                  "RemoteBranchName": "main"
+                }
+              },
+              {
+                "DatabaseId": "05477b1e-b295-4775-94d9-c2b21e63c0d1",
+                "DatabaseAliasName": "manyDbAliasB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAliasB1.git",
                   "RemoteBranchName": "main"
                 }
               }
@@ -536,8 +553,24 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "manyDbAlias"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            },
+            {
+              "DatabaseId": "05477b1e-b295-4775-94d9-c2b21e63c0d1",
+              "DatabaseAliasName": "manyDbAliasB1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "manyDbAliasB1"
               },
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
