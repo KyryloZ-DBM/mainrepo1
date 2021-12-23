@@ -14,18 +14,12 @@
               {
                 "DatabaseId": "8c0945db-90cb-403f-8599-6716c1abb4a1",
                 "DatabaseAliasName": "sharedProj1",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                  "DatabaseName": "sharedProj1"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sharedProj1.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -51,10 +45,35 @@
               "DatabaseId": "8c0945db-90cb-403f-8599-6716c1abb4a1",
               "DatabaseAliasName": "sharedProj1",
               "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
               }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "8c0945db-90cb-403f-8599-6716c1abb4a1",
+              "DatabaseAliasName": "sharedProj1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "sharedProj1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
             }
           ]
         }
@@ -85,7 +104,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/SC_testRepo.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -110,14 +130,20 @@
             {
               "DatabaseId": "65355661-2131-4f6b-ae09-251324d04c4d",
               "DatabaseAliasName": "ap1db",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "1q2w3e4R",
-                "DatabaseName": "ap1db"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "1q2w3e4R",
+                    "DatabaseName": "ap1db"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -145,7 +171,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectWith100Tables.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "1",
+                  "LocalBranchName": "1"
                 }
               }
             ]
@@ -170,14 +197,31 @@
             {
               "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
               "DatabaseAliasName": "sandboxProject1db1",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "sandboxProject1db1"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "1q2w3e4R",
+                    "DatabaseName": "sandboxProject1db1"
+                  }
+                },
+                {
+                  "BranchName": "1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "sandboxProject1db1_test"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -205,7 +249,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sandboxProject1.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -230,14 +275,20 @@
             {
               "DatabaseId": "c71e9302-8a18-4910-9bcc-958e33d5de1b",
               "DatabaseAliasName": "sandboxProject1DB",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "sandboxProject1DB"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "sandboxProject1DB"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -265,7 +316,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/more5kRecords.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -290,14 +342,20 @@
             {
               "DatabaseId": "474ce314-6300-47b0-babf-06e943399f1a",
               "DatabaseAliasName": "more5000objects",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "more5000objects"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "more5000objects"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -311,14 +369,20 @@
             {
               "DatabaseId": "474ce314-6300-47b0-babf-06e943399f1a",
               "DatabaseAliasName": "more5000objects",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "new5kRecotdsDB"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "new5kRecotdsDB"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZhdanov",
                 "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
@@ -346,7 +410,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/more1kObjects.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -371,14 +436,20 @@
             {
               "DatabaseId": "0acf3994-1ccf-4563-a2eb-e3decc7d9721",
               "DatabaseAliasName": "more1kObjects",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "1kobjects"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "1kobjects"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -513,7 +584,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAlias.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               },
               {
@@ -523,7 +595,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAliasB1.git",
-                  "RemoteBranchName": "main"
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
                 }
               }
             ]
@@ -548,14 +621,20 @@
             {
               "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
               "DatabaseAliasName": "manyDbAlias",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "1q2w3e4R",
-                "DatabaseName": "manyDbAlias"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "1q2w3e4R",
+                    "DatabaseName": "manyDbAlias"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
@@ -564,14 +643,20 @@
             {
               "DatabaseId": "05477b1e-b295-4775-94d9-c2b21e63c0d1",
               "DatabaseAliasName": "manyDbAliasB1",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "localhost",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                "DatabaseName": "manyDbAliasB1"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "manyDbAliasB1"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
