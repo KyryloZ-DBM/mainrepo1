@@ -171,8 +171,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectWith100Tables.git",
-                  "RemoteBranchName": "123",
-                  "LocalBranchName": "123"
+                  "RemoteBranchName": "12378",
+                  "LocalBranchName": "12378"
                 }
               }
             ]
@@ -256,6 +256,17 @@
                 },
                 {
                   "BranchName": "123",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "1q2w3e4R",
+                    "DatabaseName": "sandboxProject1db1_test3210"
+                  }
+                },
+                {
+                  "BranchName": "12378",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
                     "Host": "localhost",
