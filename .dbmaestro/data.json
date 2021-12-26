@@ -93,19 +93,12 @@
               {
                 "DatabaseId": "65355661-2131-4f6b-ae09-251324d04c4d",
                 "DatabaseAliasName": "ap1db",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "1q2w3e4R",
-                  "DatabaseName": "ap1db"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/SC_testRepo.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
+                  "RemoteBranchName": "new",
+                  "LocalBranchName": "new"
                 }
               }
             ]
@@ -141,6 +134,17 @@
                     "Username": "sa",
                     "Password": "1q2w3e4R",
                     "DatabaseName": "ap1db"
+                  }
+                },
+                {
+                  "BranchName": "new",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "db1"
                   }
                 }
               ],
