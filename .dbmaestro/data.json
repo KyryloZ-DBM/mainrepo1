@@ -661,7 +661,26 @@
         "ProjectId": "76c88813-c231-458e-959e-47d08a3db562",
         "ProjectName": "projectName34",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "82f4e06e-34a2-40a4-a01d-c9e1b23125cc",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+                "DatabaseAliasName": "pa2db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/proj1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -677,7 +696,42 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+              "DatabaseAliasName": "pa2db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+              "DatabaseAliasName": "pa2db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "pa2db1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ]
     },
@@ -810,31 +864,6 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "bc089a78-d227-4d3b-bf4a-d52dd0b5052c",
-        "ProjectName": "sopmeproject",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
         }
       ]
     }
