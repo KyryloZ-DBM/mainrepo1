@@ -663,12 +663,12 @@
         "DBTypeName": "SQL Server",
         "Environments": [
           {
-            "EnvironmentId": "82f4e06e-34a2-40a4-a01d-c9e1b23125cc",
+            "EnvironmentId": "c9a3e32a-f3a5-4fb2-a625-becf8ea4c407",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
             "Databases": [
               {
-                "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+                "DatabaseId": "ec3a9bc1-47dc-4a39-a322-7b278f03490c",
                 "DatabaseAliasName": "pa2db1",
                 "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
@@ -698,7 +698,7 @@
           "UserName": "KyryloZ-DBM",
           "DatabasesData": [
             {
-              "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+              "DatabaseId": "ec3a9bc1-47dc-4a39-a322-7b278f03490c",
               "DatabaseAliasName": "pa2db1",
               "DatabaseConnectionDetails": null,
               "BranchesDatabaseConnectionDetails": null,
@@ -713,7 +713,7 @@
           "UserName": "#ALL",
           "DatabasesData": [
             {
-              "DatabaseId": "bdab8c83-93d5-484f-ada3-c21011544fc0",
+              "DatabaseId": "ec3a9bc1-47dc-4a39-a322-7b278f03490c",
               "DatabaseAliasName": "pa2db1",
               "DatabaseConnectionDetails": null,
               "BranchesDatabaseConnectionDetails": [
