@@ -132,7 +132,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "ap1db"
                   }
                 },
@@ -210,7 +210,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1"
                   }
                 },
@@ -232,7 +232,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -243,7 +243,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test321"
                   }
                 },
@@ -254,7 +254,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -265,7 +265,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_long_name"
                   }
                 },
@@ -276,7 +276,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -287,7 +287,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -298,7 +298,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -309,7 +309,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_long_name"
                   }
                 },
@@ -320,7 +320,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_long_name"
                   }
                 },
@@ -331,7 +331,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
@@ -342,7 +342,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_old_commit"
                   }
                 },
@@ -353,7 +353,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_long_name"
                   }
                 },
@@ -364,7 +364,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1_long_name"
                   }
                 }
@@ -725,7 +725,7 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "1q2w3e4R",
+                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                   "DatabaseName": "manyDbAlias"
                 },
                 "RepositoryDetails": {
@@ -777,7 +777,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "1q2w3e4R",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "manyDbAlias"
                   }
                 }
