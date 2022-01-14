@@ -633,31 +633,6 @@
     },
     {
       "GlobalData": {
-        "ProjectId": "25bdc6ce-20f6-4623-bb65-ac2329aab22b",
-        "ProjectName": "testProject1",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
         "ProjectId": "a7fe98b4-e4f3-4805-a032-745ea2fbd310",
         "ProjectName": "ProjectWithMoreDB",
         "DBTypeName": "SQL Server",
