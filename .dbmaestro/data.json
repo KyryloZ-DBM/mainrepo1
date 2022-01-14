@@ -666,7 +666,26 @@
         "ProjectId": "dc300be9-0d8a-450e-9a03-b8a0005907a5",
         "ProjectName": "sendboxProject1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "676b13dc-c3ca-4dd4-ab45-14244d95a121",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "8daf6648-5647-4f8a-84e3-4f9d56485118",
+                "DatabaseAliasName": "sendboxProject1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sandboxProject1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -682,7 +701,30 @@
       "UserData": [
         {
           "UserName": "KyryloZhdanov",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "8daf6648-5647-4f8a-84e3-4f9d56485118",
+              "DatabaseAliasName": "sendboxProject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "sandboxProject1DB"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
+              }
+            }
+          ]
         }
       ]
     }
