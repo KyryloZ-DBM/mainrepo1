@@ -568,14 +568,7 @@
               {
                 "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
                 "DatabaseAliasName": "manyDbAlias",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                  "DatabaseName": "manyDbAlias"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAlias.git",
@@ -655,6 +648,33 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
+              "DatabaseAliasName": "manyDbAlias",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA=",
+                    "DatabaseName": "manyDbAlias"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
               }
             }
           ]
