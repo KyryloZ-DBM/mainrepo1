@@ -76,6 +76,21 @@
               "RepositoryCredentials": null
             }
           ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "8c0945db-90cb-403f-8599-6716c1abb4a1",
+              "DatabaseAliasName": "sharedProj1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
+              }
+            }
+          ]
         }
       ]
     },
@@ -151,6 +166,33 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "65355661-2131-4f6b-ae09-251324d04c4d",
+              "DatabaseAliasName": "ap1db",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "new",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "ap1db1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
               }
             }
           ]
@@ -375,70 +417,30 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "7c332c77-0460-4dd5-a9cd-f9d779dc23ff",
-        "ProjectName": "sandboxProject1",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "7a03be9d-9328-4334-886e-7c693cdd3f79",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "c71e9302-8a18-4910-9bcc-958e33d5de1b",
-                "DatabaseAliasName": "sandboxProject1DB",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sandboxProject1.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
         },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\sandboxProject1"
-      },
-      "UserData": [
         {
-          "UserName": "KyryloZ-DBM",
+          "UserName": "KyryloZhdanov",
           "DatabasesData": [
             {
-              "DatabaseId": "c71e9302-8a18-4910-9bcc-958e33d5de1b",
-              "DatabaseAliasName": "sandboxProject1DB",
+              "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
+              "DatabaseAliasName": "sandboxProject1db1",
               "DatabaseConnectionDetails": null,
               "BranchesDatabaseConnectionDetails": [
                 {
-                  "BranchName": "main",
+                  "BranchName": "1",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "sandboxProject1DB"
+                    "DatabaseName": "sandboxProject1"
                   }
                 }
               ],
               "RepositoryCredentials": {
-                "UserName": "KyryloZ-DBM",
-                "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
               }
             }
           ]
@@ -620,14 +622,7 @@
               {
                 "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
                 "DatabaseAliasName": "manyDbAlias",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                  "DatabaseName": "manyDbAlias"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/manyDbAlias.git",
@@ -707,6 +702,100 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "8Bx04GkOSgJWZdFvYEe4T2UdLGizwUyNBuFOVXQLlekRxJPpNowp59kfoOHK++d4"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "2027fa2a-00c1-4477-bb8d-2d17f00802a6",
+              "DatabaseAliasName": "manyDbAlias",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA=",
+                    "DatabaseName": "manyDbAlias"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "dc300be9-0d8a-450e-9a03-b8a0005907a5",
+        "ProjectName": "sendboxProject1",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "676b13dc-c3ca-4dd4-ab45-14244d95a121",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "8daf6648-5647-4f8a-84e3-4f9d56485118",
+                "DatabaseAliasName": "sendboxProject1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/sandboxProject1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 0,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "8daf6648-5647-4f8a-84e3-4f9d56485118",
+              "DatabaseAliasName": "sendboxProject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "sandboxProject1DB"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "j9DDj4qOHk+a8nJ3wKBySBkm1RtBqgF+lZPh4Dap9jfEACMVgYp9DlQNaQqOdUek"
               }
             }
           ]
