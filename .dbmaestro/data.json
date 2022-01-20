@@ -444,6 +444,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
+              "DatabaseAliasName": "sandboxProject1db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "SC1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            }
+          ]
         }
       ]
     },
