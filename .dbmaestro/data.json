@@ -444,33 +444,6 @@
               }
             }
           ]
-        },
-        {
-          "UserName": "dbmisrael",
-          "DatabasesData": [
-            {
-              "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
-              "DatabaseAliasName": "sandboxProject1db1",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "1",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "SQL Server",
-                    "Host": "WIN-MP6V5RKH9R7",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "Q3iMZmVHSBm4fbKSGHQh+w==",
-                    "DatabaseName": "RS_60"
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "dbmisrael",
-                "Password": "X+OpaC/bSJ4KCJuu/lectBXdxGyD5L2TdmQTrATe5VR73CIZrwygX9aKOgB8gFBm"
-              }
-            }
-          ]
         }
       ]
     },
