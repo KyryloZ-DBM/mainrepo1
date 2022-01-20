@@ -444,33 +444,6 @@
               }
             }
           ]
-        },
-        {
-          "UserName": "KyryloZhdanov",
-          "DatabasesData": [
-            {
-              "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
-              "DatabaseAliasName": "sandboxProject1db1",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "1",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "SQL Server",
-                    "Host": "WIN-MP6V5RKH9R7",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "Q3iMZmVHSBm4fbKSGHQh+w==",
-                    "DatabaseName": "RS_60"
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "KyryloZhdanov",
-                "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
-              }
-            }
-          ]
         }
       ]
     },
