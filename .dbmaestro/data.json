@@ -444,6 +444,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "DBMisrael",
+          "DatabasesData": [
+            {
+              "DatabaseId": "b6b32bb2-22fb-4b02-99ee-4f007215dda5",
+              "DatabaseAliasName": "sandboxProject1db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "pa6db"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "DBMisrael",
+                "Password": "X+OpaC/bSJ4KCJuu/lectBXdxGyD5L2TdmQTrATe5VR73CIZrwygX9aKOgB8gFBm"
+              }
+            }
+          ]
         }
       ]
     },
