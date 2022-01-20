@@ -812,19 +812,7 @@
             "EnvironmentId": "c60849db-2836-410d-b871-a51513a9ddd5",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "20aa5339-f650-4193-92b1-ab1575ec825a",
-                "DatabaseAliasName": "scriptTestProjDB",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/scriptTestProjDB.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -842,30 +830,7 @@
       "UserData": [
         {
           "UserName": "KyryloZhdanov",
-          "DatabasesData": [
-            {
-              "DatabaseId": "20aa5339-f650-4193-92b1-ab1575ec825a",
-              "DatabaseAliasName": "scriptTestProjDB",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "main",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "scriptTestProjDB"
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "KyryloZhdanov",
-                "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
