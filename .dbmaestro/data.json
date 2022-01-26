@@ -799,7 +799,26 @@
         "ProjectId": "ff6d2a95-dbac-4d79-9cfe-f24b5837eb14",
         "ProjectName": "project1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "f5d53690-5baa-4009-9d31-f6f9c2a56b9c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "32c06e92-2718-4ebc-91a6-edd36ee86357",
+                "DatabaseAliasName": "project1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/project1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -815,7 +834,42 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "32c06e92-2718-4ebc-91a6-edd36ee86357",
+              "DatabaseAliasName": "project1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "32c06e92-2718-4ebc-91a6-edd36ee86357",
+              "DatabaseAliasName": "project1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "project1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ]
     }
