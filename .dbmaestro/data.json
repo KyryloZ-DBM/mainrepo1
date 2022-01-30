@@ -217,8 +217,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectWith100Tables.git",
-                  "RemoteBranchName": "1",
-                  "LocalBranchName": "1"
+                  "RemoteBranchName": "B1",
+                  "LocalBranchName": "B1"
                 }
               }
             ]
@@ -263,8 +263,8 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "sandboxProject1db1_long_name"
+                    "Password": "1q2w3e4R",
+                    "DatabaseName": "sandboxProject1db1_test3210"
                   }
                 },
                 {
@@ -790,31 +790,6 @@
       "UserData": [
         {
           "UserName": "KyryloZhdanov",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "64644765-f924-44a6-875b-c7868520b2a4",
-        "ProjectName": "project1",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
           "DatabasesData": []
         }
       ]
