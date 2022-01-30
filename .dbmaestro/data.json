@@ -463,6 +463,17 @@
                     "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "SC1"
                   }
+                },
+                {
+                  "BranchName": "B1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "pa5db1"
+                  }
                 }
               ],
               "RepositoryCredentials": {
@@ -770,6 +781,38 @@
         "Environments": [
           {
             "EnvironmentId": "c60849db-2836-410d-b871-a51513a9ddd5",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": []
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 0,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": []
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "0e1b1eaf-c670-45f8-9325-12e1b6086607",
+        "ProjectName": "2dbs",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "14cd14e1-b18a-4937-b242-19f8cc8e7501",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
             "Databases": []
