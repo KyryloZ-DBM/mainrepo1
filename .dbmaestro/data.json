@@ -463,6 +463,17 @@
                     "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "SC1"
                   }
+                },
+                {
+                  "BranchName": "B1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "pa5db1"
+                  }
                 }
               ],
               "RepositoryCredentials": {
