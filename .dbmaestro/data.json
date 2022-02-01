@@ -217,8 +217,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/projectWith100Tables.git",
-                  "RemoteBranchName": "newBranch",
-                  "LocalBranchName": "newBranch"
+                  "RemoteBranchName": "someBranch",
+                  "LocalBranchName": "someBranch"
                 }
               }
             ]
