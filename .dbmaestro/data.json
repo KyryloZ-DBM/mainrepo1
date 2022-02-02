@@ -636,6 +636,17 @@
                     "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "sandboxProject1db1"
                   }
+                },
+                {
+                  "BranchName": "new",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "newDB"
+                  }
                 }
               ],
               "RepositoryCredentials": {
