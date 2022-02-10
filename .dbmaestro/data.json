@@ -65,8 +65,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "sharedProj1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -144,8 +142,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "ap1db",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -155,8 +151,6 @@
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "db1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -182,8 +176,6 @@
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "ap1db1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -249,8 +241,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "more5000objects",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -276,8 +266,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "new5kRecotdsDB",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -354,8 +342,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "manyDbAlias",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -376,8 +362,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "manyDbAliasB1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -403,8 +387,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "manyDbAlias",
                     "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA="
@@ -470,8 +452,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "sandboxProject1DB",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -605,10 +585,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "authType": "SqlAuthentication",
-                    "userName": "sa",
-                    "dbName": "newMain",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
@@ -672,8 +648,6 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "sandboxProject1db1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -683,8 +657,6 @@
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "newDB",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -694,8 +666,6 @@
                   "BranchName": "branck_v2",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "userName": "sa",
                     "AuthenticationType": "1",
                     "DatabaseName": "sandboxProject1db1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
@@ -705,10 +675,6 @@
                   "BranchName": "testNewFeatures",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
-                    "authType": "SqlAuthentication",
-                    "userName": "sa",
-                    "dbName": "mainProjectWith100db",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
@@ -719,6 +685,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "9dc9c191-0b85-44d2-a4cd-c7d3d0fdd9cb",
+        "ProjectName": "dbFeature",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
         }
       ]
     }
