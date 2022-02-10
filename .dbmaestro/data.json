@@ -28,7 +28,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -65,11 +65,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "sharedProj1"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "sharedProj1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -122,7 +122,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -144,22 +144,22 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "ap1db"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "ap1db",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 },
                 {
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "db1"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "db1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -182,11 +182,11 @@
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "ap1db1"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "ap1db1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -227,7 +227,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -249,11 +249,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "more5000objects"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "more5000objects",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -276,11 +276,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "new5kRecotdsDB"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "new5kRecotdsDB",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -332,7 +332,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -354,11 +354,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "manyDbAlias"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "manyDbAlias",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -376,11 +376,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "manyDbAliasB1"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "manyDbAliasB1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -403,11 +403,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA=",
-                    "DatabaseName": "manyDbAlias"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "manyDbAlias",
+                    "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA="
                   }
                 }
               ],
@@ -448,7 +448,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -470,11 +470,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "sandboxProject1DB"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "sandboxProject1DB",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
@@ -503,7 +503,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -535,7 +535,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -564,7 +564,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -608,7 +608,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -630,22 +630,33 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "sandboxProject1db1"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "sandboxProject1db1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 },
                 {
                   "BranchName": "new",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                    "DatabaseName": "newDB"
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "newDB",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                },
+                {
+                  "BranchName": "branck_v2",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "userName": "sa",
+                    "AuthenticationType": "1",
+                    "DatabaseName": "sandboxProject1db1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
               ],
