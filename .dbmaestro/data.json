@@ -647,6 +647,7 @@
                 {
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
+                    "Host": "localhost",
                     "DBTypeName": "SQL Server",
                     "AuthenticationType": "1",
                     "DatabaseName": "sandboxProject1db1",
